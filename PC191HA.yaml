@@ -27,6 +27,9 @@ api:
 ota:
   - platform: esphome
 
+dashboard_import:
+  package_import_url: github://KuzonCode/ESPHome/edit/main/PC191HA.yaml
+
 binary_sensor:
   - platform: gpio
     id: button
