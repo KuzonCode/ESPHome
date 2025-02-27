@@ -2,8 +2,6 @@ substitutions:
   name: ""
   friendly_name: ""
   room: ""
-  wifi_ssid: ""
-  wifi_password: ""
   
 esphome:
   name: ${name}
@@ -18,14 +16,9 @@ bk72xx:
   framework:
     version: dev
 
-packages:
-  # Git repo examples
-  remote_package:
-    url: https://github.com/esphome/non-existant-repo
+
 
 wifi:
-  ssid: ${wifi_ssid}
-  password: ${wifi_password}
   ap: 
 
 captive_portal:
